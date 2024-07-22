@@ -12,6 +12,12 @@
     "dist",
     "README.md"
   ],
+  "keywords": [
+    "react-gainsight",
+    "gainsight",
+    "react-gainsight-script-loader",
+    "react-gainsight-script-lazy-loader"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Snivio/react-gainsight"
