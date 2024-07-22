@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Enables gainsight to be used with create react app",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "module": "dist/index.js",
   "author": "Snivio Braganca <sniviobraganca5@gmail.com> (https://snivio.com",
   "license": "ISC",

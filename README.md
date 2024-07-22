@@ -7,13 +7,13 @@ This library provides a convenient way to integrate Gainsight analytics into you
 ### Installation
 
 ```bash
-npm install react-gainsight-script
+npm install react-gainsight
 ```
 
 ## Usage
 
 ```js
-import GainsightScript from "react-gainsight-script";
+import GainsightScript from "react-gainsight";
 
 function App() {
   const gainsightTagKey = "YOUR_GAINSIGHT_TAG_KEY";
