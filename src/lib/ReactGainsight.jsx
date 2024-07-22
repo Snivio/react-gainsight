@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import warn from "./utils/warn";
 import info from "./utils/info";
 
-const GainsightScript = ({ gainsightTagKey }) => {
+export const ReactGainsight = ({ gainsightTagKey }) => {
   const [scriptLoaded, setScriptLoaded] = useState(false);
 
   useEffect(() => {
@@ -27,5 +27,3 @@ const GainsightScript = ({ gainsightTagKey }) => {
 
   return null;
 };
-
-export default GainsightScript;

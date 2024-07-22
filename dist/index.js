@@ -3,11 +3,14 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-Object.defineProperty(exports, "GainsightScript", {
-  enumerable: true,
-  get: function () {
-    return _GainsightScript.default;
-  }
+var _ReactGainsight = require("./ReactGainsight");
+Object.keys(_ReactGainsight).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _ReactGainsight[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _ReactGainsight[key];
+    }
+  });
 });
-var _GainsightScript = _interopRequireDefault(require("./GainsightScript"));
-function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }

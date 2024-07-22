@@ -3,12 +3,12 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
+exports.ReactGainsight = void 0;
 var _react = require("react");
 var _warn = _interopRequireDefault(require("./utils/warn"));
 var _info = _interopRequireDefault(require("./utils/info"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
-const GainsightScript = _ref => {
+const ReactGainsight = _ref => {
   let {
     gainsightTagKey
   } = _ref;
@@ -30,4 +30,4 @@ const GainsightScript = _ref => {
   }, [gainsightTagKey, scriptLoaded]);
   return null;
 };
-var _default = exports.default = GainsightScript;
+exports.ReactGainsight = ReactGainsight;

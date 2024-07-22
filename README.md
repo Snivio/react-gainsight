@@ -1,4 +1,4 @@
-## react-gainsight-script
+## react-gainsight
 
 **A simple React component for injecting the Gainsight script.**
 
